@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { layoutGenerator } from "react-break";
 import buttonHeader from "../assets/button-header.svg";
+import close from "../assets/close.svg";
 
 const layout = layoutGenerator({
   mobile: 0,
@@ -23,7 +24,9 @@ const Header = () => {
     <>
       <OnAtLeastTablet>
         <header className="w-full flex py-[10px] px-[30px]">
-          <div className="w-1/2 font-inter font-[900] text-[2rem]">LOGO</div>
+          <div className="w-1/2 font-inter font-[900] text-[2rem]">
+            LOS AINOS
+          </div>
           <nav className="w-1/2 flex gap-[60px] font-inria-sans-serif font-[300] justify-end items-center text-[1rem] pr-[30px]">
             <a href="#home">home</a>
             <a href="#about">about us</a>
@@ -42,7 +45,7 @@ const Header = () => {
           </div>
           <div className="w-1/2 h-fit">
             <img
-              src={buttonHeader}
+              src={popupIsHidden ? buttonHeader : close}
               alt=""
               className="ml-auto pr-[20px]"
               onClick={handleClick}
