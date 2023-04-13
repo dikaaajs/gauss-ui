@@ -1,9 +1,12 @@
 import React from "react";
+import { layoutGenerator } from "react-break";
 import gelombang from "../assets/gelombang.svg";
+import gelombangPhone from "../assets/gelombangPhone.svg";
 import fagian from "../assets/fagian.svg";
 import andika from "../assets/andika.svg";
 import jibran from "../assets/jibran.svg";
 import dimas from "../assets/dimas.svg";
+import { useNavigate } from "react-router-dom";
 
 const layout = layoutGenerator({
   mobile: 0,
@@ -61,12 +64,55 @@ const Members = () => {
           </div>
         </div>
       </OnAtLeastTablet>
-      <div className="py-[50px]" id="members">
-        <h1 className="font-inter font-[800] text-[3rem] text-center">
-          Members
-        </h1>
-      </div>
-      <OnMobile></OnMobile>
+
+      <OnMobile>
+        <div
+          className="py-[150px] w-full overflow-hidden relative"
+          id="members"
+        >
+          <h1 className="font-inter font-[800] text-[2rem] text-center">
+            Members
+          </h1>
+          <img src={gelombangPhone} className="w-full pt-[100px]" />
+
+          {/* image section */}
+          <div className="w-full overflow-scroll flex absolute bottom-[170px]">
+            <img
+              src={fagian}
+              alt=""
+              className="w-[50%]"
+              onClick={() =>
+                (window.location.href = "https://www.instagram.com/fagiantz_/")
+              }
+            />
+            <img
+              src={andika}
+              alt=""
+              className="w-[50%]"
+              onClick={() =>
+                (window.location.href = "https://www.instagram.com/dikaaa.js/")
+              }
+            />
+            <img
+              src={jibran}
+              alt=""
+              className="w-[50%]"
+              onClick={() =>
+                (window.location.href =
+                  "https://www.instagram.com/hanhanjibran/")
+              }
+            />
+            <img
+              src={dimas}
+              alt=""
+              className="w-[50%]"
+              onClick={() =>
+                (window.location.href = "https://www.instagram.com/dimcord/")
+              }
+            />
+          </div>
+        </div>
+      </OnMobile>
     </>
   );
 };

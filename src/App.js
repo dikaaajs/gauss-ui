@@ -9,6 +9,7 @@ import dot from "./assets/dot.svg";
 import members from "./assets/peepsmembers.svg";
 import Home from "./components/home";
 import Members from "./components/members";
+import Works from "./components/works";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Home />
       <About />
       <Members />
+      <Works />
     </div>
   );
 }
