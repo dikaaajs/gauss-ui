@@ -2,6 +2,7 @@ import React from "react";
 import kita from "../assets/kita.svg";
 import kitaPhone from "../assets/kitaPhone.svg";
 import { layoutGenerator } from "react-break";
+import { Link } from "react-router-dom";
 
 const layout = layoutGenerator({
   mobile: 0,
@@ -79,9 +80,12 @@ const Works = () => {
 
             {/* button */}
             <div className="w-fit absolute bottom-[10px] right-[10px]">
-              <button className="bg-white rounded-[8px] py-[10px] px-[15px] mx-auto block">
+              <Link
+                to="gauss"
+                className="bg-white rounded-[8px] py-[10px] px-[15px] mx-auto block"
+              >
                 GUS-11804
-              </button>
+              </Link>
               <p className="text-white text-[.6rem]">
                 lihat lebih jauh tentang GUS-11804
               </p>

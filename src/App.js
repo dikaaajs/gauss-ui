@@ -1,26 +1,15 @@
-import "./index.css";
-import { Link, NavLink } from "react-router-dom";
-import Header from "./components/header";
-import aboutBG from "./assets/about.svg";
-import About from "./components/about";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import Gauss from "./pages/gauss";
 
-// assets
-import dot from "./assets/dot.svg";
-import members from "./assets/peepsmembers.svg";
-import Home from "./components/home";
-import Members from "./components/members";
-import Works from "./components/works";
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <About />
-      <Members />
-      <Works />
+    <div className="w-full h-full">
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/gauss" element={<Gauss />} />
+      </Routes>
     </div>
   );
 }
-
-export default App;
