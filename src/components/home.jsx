@@ -24,8 +24,8 @@ const Home = () => {
           {/* paragraph section */}
           <div className="w-1/2 font-inter font-[600] text-[2rem] relative">
             <p className="w-[80%] ml-auto relative">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non
-              ligula nulla. Aliquam volutpat in leo et fringilla.
+              Selamat datang di website kami! kami adalah kelompok los-ainos
+              yang sedang mengikuti olimpiade OGG
               <img
                 src={dot}
                 className="absolute top-[0px] left-[-30px] z-[-1] w-[20%]"
@@ -48,8 +48,8 @@ const Home = () => {
           {/* paragraph section */}
           <div className="w-full font-inter font-[600] text-[1.3rem] relative">
             <p className="w-[85%] mx-auto relative">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non
-              ligula nulla. Aliquam volutpat in leo et fringilla.
+              Selamat datang di website kami! kami adalah kelompok los-ainos
+              yang sedang mengikuti olimpiade OGG
               <img
                 src={dot}
                 className="absolute top-[0px] left-[-30px] z-[-1] w-[20%]"

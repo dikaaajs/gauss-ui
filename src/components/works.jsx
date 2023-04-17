@@ -31,13 +31,13 @@ const Works = () => {
               {/* text section */}
               <div className="w-3/4 pl-[50px] pt-[20px]">
                 <h2 className="font-inter font-[800] text-[2rem] text-white text-center">
-                  AVEW-00343
+                  GUS-11804
                 </h2>
                 <p className="font-inria-sans-serif font-[300] text-[1.5rem] text-white text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                  non ligula nulla. Aliquam volutpat in leo et fringilla. Nulla
-                  vehicula euismod risus quis luctueleifend erat, et dapibus dui
-                  luctus quis
+                  GUS-11804 (Geodata Utilizing System) adalah alat untuk
+                  mengukur tingkat kekeringan pada suatu tanah. alat ini
+                  terintergari dengan halaman website, yang mana ketika alat ini
+                  bekerja, maka akan menghasilkan output pada website tersebut
                 </p>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Works = () => {
             {/* button */}
             <div className="w-fit absolute bottom-[10px] right-[10px]">
               <button className="bg-white rounded-[8px] py-[10px] px-[15px] mx-auto block">
-                AVEW-00343
+                GUS-11804
               </button>
               <p className="text-white text-[.6rem]">
                 lihat lebih jauh tentang avew-0443
@@ -64,14 +64,15 @@ const Works = () => {
             <div className="px-[20px] py-[30px]">
               <div className="w-full">
                 <h2 className="font-inter font-[800] text-[2rem] text-white text-center">
-                  AVEW-00343
+                  GUS-11804
                 </h2>
                 <img src={kitaPhone} alt="" className="py-[20px]" />
                 <p className="pb-[70px] font-inria-sans-serif font-[300] text-[1rem] text-white text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                  non ligula nulla. Aliquam volutpat in leo et fringilla. Nulla
-                  vehicula euismod risus quis luctueleifend erat, et dapibus dui
-                  luctus quis
+                  Geodata Acquization and Utilization Semi-system (GAUSS) adalah
+                  alat untuk mengukur tingkat kekeringan pada suatu tanah. alat
+                  ini terintergari dengan halaman website, yang mana ketika alat
+                  ini bekerja, maka akan menghasilkan output pada website
+                  tersebut
                 </p>
               </div>
             </div>
@@ -79,10 +80,10 @@ const Works = () => {
             {/* button */}
             <div className="w-fit absolute bottom-[10px] right-[10px]">
               <button className="bg-white rounded-[8px] py-[10px] px-[15px] mx-auto block">
-                AVEW-00343
+                GUS-11804
               </button>
               <p className="text-white text-[.6rem]">
-                lihat lebih jauh tentang avew-0443
+                lihat lebih jauh tentang GUS-11804
               </p>
             </div>
           </div>

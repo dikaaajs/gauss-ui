@@ -20,9 +20,8 @@ const About = () => {
           About Us
         </h1>
         <p className="w-[70%] mx-auto md:text-[1.5rem] text-[1rem]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non
-          ligula nulla. Aliquam volutpat in leo et fringilla. Nulla vehicula
-          euismod risus quis luctueleifend erat, et dapibus dui luctus quis
+          kami membuat suatu teknologi yang semaksimal mungkin bisa digunakan
+          kembali oleh masyarakat. lorem ipsum dolor
         </p>
       </div>
     </div>
