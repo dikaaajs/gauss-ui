@@ -45,12 +45,13 @@ const Works = () => {
 
             {/* button */}
             <div className="w-fit absolute bottom-[10px] right-[10px]">
-              <button className="bg-white rounded-[8px] py-[10px] px-[15px] mx-auto block">
+              <Link
+                to={"/gauss"}
+                className="bg-white rounded-[8px] py-[10px] px-[15px] mx-auto block"
+              >
                 GUS-11804
-              </button>
-              <p className="text-white text-[.6rem]">
-                lihat lebih jauh tentang avew-0443
-              </p>
+              </Link>
+              <p className="text-white text-[.6rem]">peta output GAUSS-11804</p>
             </div>
           </div>
         </div>
@@ -65,7 +66,7 @@ const Works = () => {
             <div className="px-[20px] py-[30px]">
               <div className="w-full">
                 <h2 className="font-inter font-[800] text-[2rem] text-white text-center">
-                  GUS-11804
+                  GAUSS-11804
                 </h2>
                 <img src={kitaPhone} alt="" className="py-[20px]" />
                 <p className="pb-[70px] font-inria-sans-serif font-[300] text-[1rem] text-white text-center">
@@ -86,9 +87,7 @@ const Works = () => {
               >
                 GUS-11804
               </Link>
-              <p className="text-white text-[.6rem]">
-                lihat lebih jauh tentang GUS-11804
-              </p>
+              <p className="text-white text-[.6rem]">peta output GAUSS-11804</p>
             </div>
           </div>
         </div>
